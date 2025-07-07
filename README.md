@@ -1,4 +1,4 @@
-# Storyblok Starter Space Blueprint: Astro
+# Storyblok Core Space Blueprint: Astro
 
 Integrate [Astro](https://astro.build) with [Storyblok](http://www.storyblok.com) as a headless CMS.
 

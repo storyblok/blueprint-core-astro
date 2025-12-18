@@ -7,7 +7,12 @@ import vercel from '@astrojs/vercel';
 import netlify from '@astrojs/netlify';
 
 const env = loadEnv(import.meta.env.MODE, process.cwd(), '');
-const { NETLIFY, STORYBLOK_DELIVERY_API_TOKEN, STORYBLOK_API_BASE_URL } = env;
+const {
+	NETLIFY,
+	STORYBLOK_DELIVERY_API_TOKEN,
+	STORYBLOK_API_BASE_URL,
+	STORYBLOK_REGION,
+} = env;
 
 export default defineConfig({
 	integrations: [
@@ -15,7 +20,7 @@ export default defineConfig({
 			accessToken: STORYBLOK_DELIVERY_API_TOKEN,
 			apiOptions: {
 				/** Set the correct region for your space. Learn more: https://www.storyblok.com/docs/packages/storyblok-js#example-region-parameter */
-				region: 'eu',
+				region: STORYBLOK_REGION || 'eu',
 				/** The following code is only required when creating a Storyblok space directly via the Blueprints feature. */
 				endpoint: STORYBLOK_API_BASE_URL
 					? `${new URL(STORYBLOK_API_BASE_URL).origin}/v2`

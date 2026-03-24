@@ -15,6 +15,9 @@ const {
 } = env;
 
 export default defineConfig({
+	devToolbar: {
+		enabled: false,
+	},
 	integrations: [
 		storyblok({
 			accessToken: STORYBLOK_DELIVERY_API_TOKEN,

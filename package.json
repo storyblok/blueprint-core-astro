@@ -11,9 +11,9 @@
 	},
 	"devDependencies": {
 		"@storyblok/astro": "^9.0.0",
-		"astro": "^6.0.8",
+		"astro": "^6.3.7",
 		"vite": "^7.1.7",
-		"vite-plugin-mkcert": "^1.17.10"
+		"vite-plugin-mkcert": "^2.0.0"
 	},
 	"dependencies": {
 		"@astrojs/netlify": "^7.0.4",

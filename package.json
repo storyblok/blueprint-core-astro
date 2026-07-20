@@ -10,7 +10,7 @@
 		"astro": "astro"
 	},
 	"devDependencies": {
-		"@storyblok/astro": "^9.0.0",
+		"@storyblok/astro": "^10.2.1",
 		"astro": "^6.0.8",
 		"vite": "^7.1.7",
 		"vite-plugin-mkcert": "^1.17.10"

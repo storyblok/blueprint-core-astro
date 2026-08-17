@@ -16,7 +16,7 @@
 		"vite-plugin-mkcert": "^1.17.10"
 	},
 	"dependencies": {
-		"@astrojs/netlify": "^7.0.4",
+		"@astrojs/netlify": "^8.2.1",
 		"@astrojs/vercel": "^10.0.2"
 	}
 }

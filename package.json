@@ -19,7 +19,7 @@
 	"dependencies": {
 		"@astrojs/netlify": "^8.2.6",
 		"@astrojs/vercel": "^11.0.10",
-		"@storyblok/api-client": "^0.12.0",
+		"@storyblok/api-client": "^0.13.0",
 		"@storyblok/astro": "^11.0.0",
 		"astro": "^7.3.3"
 	},
